@@ -1,0 +1,46 @@
+.titulo{
+	font-family: 'Comic Sans MS';
+	text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+	color: #2E50A5;
+	font-size: 51px;
+}
+.imagen{
+    border:solid 3px #2E50A5;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+	
+    -moz-box-shadow: 6px 7px 9px #000000;
+    -webkit-box-shadow: 6px 7px 9px #000000;
+    box-shadow: 6px 7px 9px #000000;
+}
+.texto{
+	font: 15px arial, sans-serif;
+	color: #0000EE;
+}
+input[type=checkbox].cbox {
+	display:none;
+}
+input[type=checkbox].cbox + label.cblabel {
+	padding-left:22px;
+	height:20px; 
+	display:inline-block;
+	line-height:20px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:16px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+input[type=checkbox].cbox:checked + label.cblabel {
+	background-position: 0 -20px;
+}
+label.cblabel {
+	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_8bdf8a1c4c6293a5ab58b8f17d31ce11.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
